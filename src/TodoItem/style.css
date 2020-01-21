@@ -1,0 +1,61 @@
+body{
+    background-color: #ffd1dc;
+}
+.App {
+    background-color: #CCA7B0;
+    min-height: 500px;
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+.todoItem {
+    margin: 10px;
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+    text-decoration-color: #CCA7B0;
+}
+.todoListContainer p
+{
+    color: white;
+    width: 300px;
+    background-color: #ffd1dc;
+    height: 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.todoListContainer p{
+    padding: 10px;
+}
+#todo-form input {
+    background-color: thistle;
+    border: 0px;
+    outline: 0px;
+    width: 200px;
+    height: 50px;
+    padding: 0 15px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+#todo-form placeholder {
+    color: lightpink;
+}
+#todo-form input:focus, #todo-form button:focus{
+    outline: none;
+}
+#todo-form button {
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    border: 0px;
+    outline: 0px;
+    background-color: #a7ccc3;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 14px;
+    color: #fff;
+}
